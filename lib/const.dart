@@ -1,5 +1,6 @@
 import 'package:flutter/animation.dart';
 import 'package:flutter_animations/basic/animation_controller.dart';
+import 'package:flutter_animations/basic/tweens.dart';
 import 'package:go_router/go_router.dart';
 
 import 'basic/animated_container.dart';
@@ -41,6 +42,11 @@ final basicDemos = [
     name: 'Animation Controller',
     route: AnimationControllerDemo.routeName,
     builder: (context) => const AnimationControllerDemo(),
+  ),
+  Demo(
+    name: 'Tweens',
+    route: TweenDemo.routeName,
+    builder: (context) => const TweenDemo(),
   ),
 ];
 
