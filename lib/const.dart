@@ -1,6 +1,7 @@
 import 'package:go_router/go_router.dart';
 
 import 'basic/animated_container.dart';
+import 'basic/page_route_builder.dart';
 import 'home.dart';
 import 'misc/expand_card.dart';
 import 'models/demo.dart';
@@ -29,7 +30,14 @@ final basicDemos = [
     route: AnimatedContainerDemo.routeName,
     builder: (context) => const AnimatedContainerDemo(),
   ),
+  Demo(
+    name: 'PageRouteBuilder',
+    route: PageRouteBuilderDemo.routeName,
+    builder: (context) => const PageRouteBuilderDemo(),
+  ),
 ];
+
+
 
 final miscDemos = [
   Demo(
