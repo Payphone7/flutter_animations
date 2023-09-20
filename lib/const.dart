@@ -1,3 +1,5 @@
+import 'package:flutter/animation.dart';
+import 'package:flutter_animations/basic/animation_controller.dart';
 import 'package:go_router/go_router.dart';
 
 import 'basic/animated_container.dart';
@@ -35,9 +37,12 @@ final basicDemos = [
     route: PageRouteBuilderDemo.routeName,
     builder: (context) => const PageRouteBuilderDemo(),
   ),
+  Demo(
+    name: 'Animation Controller',
+    route: AnimationControllerDemo.routeName,
+    builder: (context) => const AnimationControllerDemo(),
+  ),
 ];
-
-
 
 final miscDemos = [
   Demo(
