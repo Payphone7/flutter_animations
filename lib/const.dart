@@ -1,5 +1,6 @@
 import 'package:flutter/animation.dart';
 import 'package:flutter_animations/basic/animation_controller.dart';
+import 'package:flutter_animations/basic/custom_tween.dart';
 import 'package:flutter_animations/basic/tweens.dart';
 import 'package:go_router/go_router.dart';
 
@@ -48,6 +49,12 @@ final basicDemos = [
     route: TweenDemo.routeName,
     builder: (context) => const TweenDemo(),
   ),
+  Demo(
+    name: 'Custom Tween',
+    route: CustomTweenDemo.routeName,
+    builder: (context) => const CustomTweenDemo(),
+  ),
+
 ];
 
 final miscDemos = [
