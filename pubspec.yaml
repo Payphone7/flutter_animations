@@ -58,6 +58,14 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+# 两种引入方式：
+    # 一种是 - assets/ (注意-和assets之间有空格)
+    - assets/
+    # 一种是 - assets/eat_cape_town_sm (注意-和assets之间有空格)
+#    - assets/eat_cape_town_sm.jpg
+#    - assets/eat_new_orleans_sm.jpg
+#    - assets/eat_sydney_sm.jpg
 
   # To add assets to your application, add an assets section, like this:
   # assets:
