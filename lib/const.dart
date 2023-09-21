@@ -2,6 +2,7 @@ import 'package:flutter/animation.dart';
 import 'package:flutter_animations/basic/animation_controller.dart';
 import 'package:flutter_animations/basic/custom_tween.dart';
 import 'package:flutter_animations/basic/tweens.dart';
+import 'package:flutter_animations/misc/carousel.dart';
 import 'package:go_router/go_router.dart';
 
 import 'basic/animated_container.dart';
@@ -62,5 +63,10 @@ final miscDemos = [
     name: 'Expandable Card',
     route: ExpandCardDemo.routeName,
     builder: (context) => const ExpandCardDemo(),
+  ),
+  Demo(
+    name: 'Carousel',
+    route: CarouselDemo.routeName,
+    builder: (context) =>  CarouselDemo(),
   ),
 ];
