@@ -9,6 +9,7 @@ import 'basic/animated_container.dart';
 import 'basic/page_route_builder.dart';
 import 'home.dart';
 import 'misc/expand_card.dart';
+import 'misc/focus_image.dart';
 import 'models/demo.dart';
 
 final router = GoRouter(routes: [
@@ -69,4 +70,10 @@ final miscDemos = [
     route: CarouselDemo.routeName,
     builder: (context) =>  CarouselDemo(),
   ),
+  Demo(
+    name: 'Focus Image',
+    route: FocusImageDemo.routeName,
+    builder: (context) =>  const FocusImageDemo(),
+  ),
 ];
+
