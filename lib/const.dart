@@ -2,6 +2,7 @@ import 'package:flutter/animation.dart';
 import 'package:flutter_animations/basic/animation_controller.dart';
 import 'package:flutter_animations/basic/custom_tween.dart';
 import 'package:flutter_animations/basic/tweens.dart';
+import 'package:flutter_animations/misc/card_swipe.dart';
 import 'package:flutter_animations/misc/carousel.dart';
 import 'package:go_router/go_router.dart';
 
@@ -74,6 +75,11 @@ final miscDemos = [
     name: 'Focus Image',
     route: FocusImageDemo.routeName,
     builder: (context) =>  const FocusImageDemo(),
+  ),
+  Demo(
+    name: 'Card Swipe',
+    route: CardSwipeDemo.routeName,
+    builder: (context) =>  const CardSwipeDemo(),
   ),
 ];
 
